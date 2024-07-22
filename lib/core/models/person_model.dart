@@ -4,7 +4,7 @@ import 'package:la_case_de_papel/core/models/image_model.dart';
 class PersonModel {
   final int id;
   final String url;
-  final CountryModel country;
+  final CountryModel? country;
   final String birthday;
   final String? deathday;
   final String gender;
@@ -25,12 +25,14 @@ class PersonModel {
     return PersonModel(
       id: jsonData['id'],
       url: jsonData['url'],
-      country: CountryModel.fromJson(jsonData['country']),
+      country: jsonData['country'] != null
+          ? CountryModel.fromJson(jsonData['country'])
+          : CountryModel(name: 'name', code: 'code', timezone: 'timezone'),
       birthday: jsonData['birthday'],
       deathday: jsonData['deathday'],
       gender: jsonData['gender'],
       image: ImageModel.fromJson(jsonData['image']),
-      update: jsonData['update'],
+      update: jsonData['update'] ?? 0,
     );
   }
 }
