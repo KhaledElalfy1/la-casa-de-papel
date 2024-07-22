@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
-  // https://api.tvmaze.com/shows/27436/cast
 }
 
 class MyApp extends StatelessWidget {
