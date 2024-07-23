@@ -4,6 +4,7 @@ import 'package:la_case_de_papel/core/models/image_model.dart';
 class PersonModel {
   final int id;
   final String url;
+  final String name;
   final CountryModel? country;
   final String birthday;
   final String? deathday;
@@ -14,6 +15,7 @@ class PersonModel {
   PersonModel(
       {required this.id,
       required this.url,
+      required this.name,
       required this.country,
       required this.birthday,
       required this.deathday,
@@ -25,6 +27,7 @@ class PersonModel {
     return PersonModel(
       id: jsonData['id'],
       url: jsonData['url'],
+      name: jsonData['name'],
       country: jsonData['country'] != null
           ? CountryModel.fromJson(jsonData['country'])
           : CountryModel(name: 'name', code: 'code', timezone: 'timezone'),
