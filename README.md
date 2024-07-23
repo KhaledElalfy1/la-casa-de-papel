@@ -2,7 +2,7 @@
 
 
 ## description 
-La casa de paple is an app that make fans know information about there favorit characters in the series 
+La Casa de Papel is an app that allows fans to learn information about their favorite characters from the series through the Series API.
 
 ![Static Badge](https://img.shields.io/badge/flutter-v3.22-blue)
 
@@ -44,6 +44,18 @@ La casa de paple is an app that make fans know information about there favorit c
 
 ## Images
 
+**Splash screen**
+
+![Screenshot](splash.png)
+
+
+**Home Screen**
+
+![Screenshot](home.png)
+
+**Dtails Screen**
+
+![Screenshot](details.png)
 
 ## Video Demo
 
