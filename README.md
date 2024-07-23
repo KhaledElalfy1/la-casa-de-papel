@@ -1,16 +1,53 @@
-# la_case_de_papel
+# La case de paple <img src="assets/images/app_icon.png" align="right" width="60"/>  
 
-A new Flutter project.
 
-## Getting Started
+## description 
+La casa de paple is an app that make fans know information about there favorit characters in the series 
 
-This project is a starting point for a Flutter application.
+![Static Badge](https://img.shields.io/badge/flutter-v3.22-blue)
 
-A few resources to get you started if this is your first Flutter project:
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Images](#images)
+4. [Video Demo](#video-demo)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   
+## Installation 
+1. Clone the repository:
+   
+    ```sh
+    git clone https://github.com/KhaledElalfy1/la-casa-de-papel.git
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Navigate to the app directory:
+    ```sh
+    cd la-casa-de-papel
+    ```
+
+3. Clean the project and install dependencies:
+    ```sh
+    flutter clean
+    flutter pub get
+    ```
+
+## Additional Steps for Best Experience
+4. Change the app icon:
+    ```sh
+    flutter pub get
+    flutter pub run flutter_launcher_icons
+    ```
+    ## usage
+     To run the project, use the following command:
+     ```sh
+       flutter run
+     ```
+
+## Images
+
+
+## Video Demo
+
+https://github.com/user-attachments/assets/47aea627-ecb8-4103-940a-1b8bc0b06613
+
+
+     
